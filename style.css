@@ -1,0 +1,63 @@
+/*fonts starts*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+/*fonts ends*/
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* header starts*/
+header {
+  background: #264653;
+}
+.header-description-color h1 {
+  color: white;
+  font: 48px;
+  font-weight: 600;
+  line-height: 1.7em;
+}
+.header-description-color span,
+.header-description-color p {
+  color: #e0e0e0;
+  font-weight: 300;
+}
+.btn-purchase {
+  background-color: #e76f51;
+}
+/* header ends*/
+/* features starts */
+.feature-top h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.feature-top span {
+  color: #e76f51;
+  font-weight: 600;
+}
+/* features ends */
+/* clints starts*/
+.client-area h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+.client-area h1 span {
+  color: #e76f51;
+}
+.card img {
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+  margin: auto;
+}
+.card-body span {
+  color: #23a6f0;
+  line-height: 2.5em;
+}
+.card-body .recognize {
+  font-weight: 600;
+}
+.card-text {
+  color: #6c6c6c;
+}
+.review i {
+  color: #e77c40;
+}
+/* client ends*/
