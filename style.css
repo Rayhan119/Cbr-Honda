@@ -21,6 +21,7 @@ header {
 }
 .btn-purchase {
   background-color: #e76f51;
+  color: white;
 }
 /* header ends*/
 /* features starts */
@@ -41,7 +42,7 @@ header {
 .client-area h1 span {
   color: #e76f51;
 }
-.card img {
+.client-card-img img {
   width: 140px;
   height: 140px;
   border-radius: 70px;
@@ -61,3 +62,34 @@ header {
   color: #e77c40;
 }
 /* client ends*/
+.faq-img img{
+  width: 431px;
+  height: 423px;
+}
+.faq-area h1{
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.faq-area h1 span{
+  color:#E76F51;
+}
+/* Upcoming  style*/
+.upcoming h1{
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.upcoming h1 span{
+  color:#E76F51;
+}
+.card-upcoming-img img{
+  width:200px;
+  height: 200px;
+  margin: auto;
+}
+.card-body h3{
+  color: #e76f51;
+  font-weight: 600;
+}
+/* Upcoming  style*/
