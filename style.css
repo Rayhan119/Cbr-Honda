@@ -14,6 +14,11 @@ header {
   font-weight: 600;
   line-height: 1.7em;
 }
+.header-bike-img img{
+  
+  width:450px;
+  height:400px;
+}
 .header-description-color span,
 .header-description-color p {
   color: #e0e0e0;
@@ -32,6 +37,9 @@ header {
 .feature-top span {
   color: #e76f51;
   font-weight: 600;
+}
+.grayscale img{
+  filter: grayscale(100%);
 }
 /* features ends */
 /* clints starts*/
@@ -62,6 +70,7 @@ header {
   color: #e77c40;
 }
 /* client ends*/
+/* faq starts */
 .faq-img img{
   width: 431px;
   height: 423px;
@@ -74,6 +83,7 @@ header {
 .faq-area h1 span{
   color:#E76F51;
 }
+/* faq ends */
 /* Upcoming  style*/
 .upcoming h1{
   font-size: 48px;
@@ -93,3 +103,28 @@ header {
   font-weight: 600;
 }
 /* Upcoming  style*/
+.showroom-card-body-img img{
+  width: 300px;
+  height: 223px;
+}
+/* media query starts*/
+@media only screen and (max-width: 668px){
+  .container{
+    width:100%;
+    height: 100%;
+  }
+  .header-bike-img img{
+  
+    width:300px;
+    height:250px;
+  }
+  .faq-img img{
+    width:300px;
+    height:250px;
+  }
+  .showroom-card-body-img img{
+    width:200px;
+    height:150px;
+  }
+}
+/* media query ends*/
